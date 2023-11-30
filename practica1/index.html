@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Personalizacion</title>
+</head>
+<body>
+    <main class="contenedor-main">
+
+        <section class="parcial">
+            <p>2do Parcial</p>
+        </section>
+
+        <section class="fila-del-medio">
+            <article class="contenedor-del-texto-universidad" id="contenedor-del-texto-universidad">
+                <p class="texto-universidad" id="texto-universidad">Universidad</p>
+            </article>
+
+            <article class="contenedor-de-personalizaciones">
+                <p>Ingresá la UNIVERSIDAD:</p>
+                <select name="selector-universidad" id="selector-universidad">
+                    <option value="Universidad">Seleccione la universidad</option>
+                    <option value="unlam">UNLAM</option>
+                    <option value="usai">USAI</option>
+                    <option value="unsam">UNSAM</option>
+                </select>
+
+                <p>Cambiá el color del fondo:</p>
+                <select name="selector-color-del-fondo" id="selector-color-del-fondo">
+                    <option value="fondoDefault">Seleccione un color de fondo</option>
+                    <option value="fondoRojo">Rojo</option>
+                    <option value="fondoVerde">Verde</option>
+                    <option value="fondoAzul">Azul</option>
+                </select>
+
+                <p>Cambiá el color del texto:</p>
+                <input type="radio" name="grupo" id="blanco">
+                <label for="blanco">Blanco</label>
+                <input type="radio" name="grupo" id="gris">
+                <label for="gris">Gris</label>
+                <input type="radio" name="grupo" id="amarillo">
+                <label for="amarillo">Amarillo</label>
+            </article>
+        </section>
+
+        <footer class="footer">
+            <p>Schmuker Julián Gabriel - 46.091.742</p>
+        </footer>
+    </main>
+
+    <script src="archivo.js"></script>
+</body>
+</html>

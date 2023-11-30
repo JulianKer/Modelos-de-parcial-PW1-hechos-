@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.tipoParcial,
+.fila-central,
+.pie-de-pagina{
+    border: black solid 2px;
+    font-size: 1.1em;
+}
+
+.contenedorDelParrafo,
+.contenedorPersonalizacion{
+    border: black solid 2px;
+}
+.contenedorDelParrafo{
+    margin-right: 20px;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorPersonalizacion{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.contenedorPersonalizacion > label,
+.contenedorPersonalizacion > p,
+.contenedorPersonalizacion > select
+.contenedorPersonalizacion > div{
+    margin: 20px;
+}
+
+
+.contenedorPrincipal{
+    width: 60%;
+    height: 70vh;
+}
+
+.fila-central{
+    height: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+
+.pie-de-pagina{
+    text-align: center;
+}
+.tipoParcial{
+    padding-left: 15px;
+}
+
+
+.parrafo{
+    overflow: auto;
+    max-width: 100%;
+    
+}
+
+
+
+
+.default{
+    background-color: white;
+    transition: all ease .5s;
+}
+
+.fondoRojo{
+    background-color: red;
+    transition: all ease .5s;
+}
+
+.fondoVerde{
+    background-color: green;
+    transition: all ease .5s;
+}
+
+.fondoAzul{
+    background-color: blue;
+    transition: all ease .5s;
+}
+
+.centro{
+    justify-content: center;
+}
+
+.izquierda{
+    justify-content: flex-start;
+}
+
+.derecha{
+    justify-content: flex-end;
+}
+
+
+
+
+

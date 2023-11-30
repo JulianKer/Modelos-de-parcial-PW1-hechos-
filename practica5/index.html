@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Práctica 4</title>
+</head>
+<body>
+    <main class="principal">
+        <section class="filaDeArriba">
+            <p>2do Parcial</p>
+        </section>
+
+        <section class="filaDelMedio">
+            <article class="personalizacion" id="personalizacion">
+                <p>Ingresá un texto:</p>
+                <input type="text" id="inputTexto">
+                <p>Cambiá el color del fondo:</p>
+                <div class="botones">
+                    <input type="radio" name="botones" id="rojo" value="rojo">
+                    <label for="rojo">Rojo</label>
+                    <input type="radio" name="botones" id="verde" value="verde">
+                    <label for="verde">Verde</label>
+                    <input type="radio" name="botones" id="azul" value="azul">
+                    <label for="azul">Azul</label>
+                </div>
+
+                <p>Cambiá la alineación del texto:</p>
+                <select name="alineaciones" id="alineaciones">
+                    <option value="default">Elija una alineación</option>
+                    <option value="izquierda">Izquierda</option>
+                    <option value="centrado">Centrado</option>
+                    <option value="derecha">Derecha</option>
+                </select>
+            </article>
+
+            <article class="cuadroDelTexto" id="cuadroDelTexto">
+                <p id="texto">País</p>
+            </article>
+        </section>
+
+        <footer class="pieDePagina">
+            <p>Schmuker Julián Gabriel 46091742</p>
+        </footer>
+
+    </main>
+    <script src="archivo.js"></script>
+</body>
+</html>

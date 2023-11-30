@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.principal{
+    width: 40%;
+}
+
+.filaDeArriba,
+.filaDelMedio,
+.pieDePagina,
+.personalizacion,
+.alineaciones,
+.cuadroDelTexto{
+border: black solid 2px;
+}
+
+.filaDeArriba,
+.pieDePagina,
+.filaDelMedio{
+    display: flex;
+    justify-content: center;
+}
+
+.filaDelMedio article{
+    width: 50%;
+    margin: 15px;
+    padding: 10px;
+}
+
+.cuadroDelTexto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personalizacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*------------- estilos colores ------------*/
+.rojo{
+    background-color: red;
+}
+.verde{
+    background-color: green;
+}
+.azul{
+    background-color: blue;
+}
+/*------------------------------------------*/
+
+
+/*------------- estilos alineacion --------*/
+.izquierda{
+    justify-content: left;
+}
+.cenrtrado{
+    justify-content: center;
+}
+.derecha{
+    justify-content: right;
+}
+/*------------------------------------------*/

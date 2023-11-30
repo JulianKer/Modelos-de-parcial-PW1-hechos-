@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Practica 3</title>
+</head>
+<body>
+    <main class="contenedorPrincipal">
+        <section class="tipoDeParcial">
+            <p>2do Parcial</p>
+        </section>
+
+        <section class="filaDelMedio">
+            <article class="contenedorDelTextoQueCambia" id="contenedorDelTextoQueCambia">
+                <p class="texto" id="texto">Título del curso</p>
+            </article>
+
+            <article class="contenedorDePersonalizacion">
+                <p>Seleccioná un curso:</p>
+                <div class="botonesCursos" id="botonesCursos">
+                    <input type="radio" name="grupoBotonesCursos" id="html">
+                    <label for="html">HTML</label>
+                    <input type="radio" name="grupoBotonesCursos" id="css">
+                    <label for="css">CSS</label>
+                    <input type="radio" name="grupoBotonesCursos" id="javascript">
+                    <label for="javascript">JAVASCRIPT</label>
+                </div>
+
+                <p>Cambiá el color del texto:</p>
+                <select name="selectorDelColorDelTexto" id="selectorDelColorDelTexto">
+                    <option value="colorDefault">Seleccione un color</option>
+                    <option value="colorRojo">ROJO</option>
+                    <option value="colorVerde">VERDE</option>
+                    <option value="colorAmarillo"">AMARILLO</option>
+                </select>
+
+                <p>Cambiá el color del fondo:</p>
+                <div class="botonesColorDelFondo">
+                    <input type="radio" name="grupoBotonesColorDelFondo" id="fondoVerde">
+                    <label for="fondoVerde">VERDE</label>
+                    <input type="radio" name="grupoBotonesColorDelFondo" id="fondoVioleta">
+                    <label for="fondoVioleta">VIOLETA</label>
+                    <input type="radio" name="grupoBotonesColorDelFondo" id="fondoNaranja">
+                    <label for="fondoNaranja">NARANJA</label>
+                </div>
+            </article>
+        </section>
+
+        <footer class="pieDePagina">
+            <p>Schmuker Julián Gabriel - 46091742</p>
+        </footer>
+    </main>
+
+    <script src="archivo.js"></script>
+</body>
+</html>

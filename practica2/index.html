@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Practica 2</title>
+</head>
+<body>
+    <main class="contenedorPrincipal">
+        <article class="tipoParcial">
+            <p>2do Parcial</p>
+        </article>
+
+        <article class="fila-central">
+            <div class="contenedorDelParrafo" id="contenedorDelParrafo">
+                <p class="parrafo" id="parrafo">Título</p>
+            </div>
+
+            <div class="contenedorPersonalizacion">
+
+                <label for="inputTexto">Ingresá un texto</label>
+                <input type="text" id="inputTexto">
+
+                <label for="colorDelFondo">Cambiá el color del fondo</label>
+                <select name="colorDelFondo" id="colorDelFondo">
+                    <option value="default">Seleccione un color del fondo</option>
+                    <option value="fondoRojo">Rojo</option>
+                    <option value="fondoVerde">Verde</option>
+                    <option value="fondoAzul">Azul</option>
+                </select>
+
+                <p>Cambiá la alineacion del texto:</p>
+                <div class="botonesRadio">
+                    <input type="radio" name="grupo" id="izquierda">
+                    <label for="izquierda">Izquierda</label>
+
+                    <input type="radio" name="grupo" id="centrado">
+                    <label for="centrado">Centrado</label>
+    
+                    <input type="radio" name="grupo" id="derecha">
+                    <label for="derecha">Derecha</label>
+                </div>
+            </div>
+        </article>
+
+        <footer class="pie-de-pagina">
+            <p>Schmuker Julián Gabriel - 46.091.742</p>
+        </footer>
+
+    </main>
+
+    <script src="archivo.js"></script>
+</body>
+</html>

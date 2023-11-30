@@ -1,0 +1,115 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorPrincipal{
+    width: 60%;
+    font-size: 1.1em;
+}
+
+.contenedorPrincipal,
+.tipoDeParcial,
+.pieDePagina,
+.contenedorDelTextoQueCambia,
+.contenedorDePersonalizacion{
+    border: black solid 2px;
+}
+
+.tipoDeParcial{
+    display: flex;
+    justify-content: center;
+}
+
+.pieDePagina{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1em;
+}
+
+.filaDelMedio{
+    display: flex;
+    padding: 20px;
+    height: 40vh;
+}
+
+.contenedorDelTextoQueCambia,
+.contenedorDePersonalizacion{
+    width: 50%;
+}
+
+.contenedorDelTextoQueCambia{
+    margin-right: 20px;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease .6s;
+}
+
+.contenedorDePersonalizacion{
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+/* --------------- colores del texto ------------------ */
+
+.colorDefault{
+    color: black;
+}
+
+.colorRojo{
+    color: red;
+}
+
+.colorVerde{
+    color: green;
+}
+
+.colorAmarillo{
+    color: yellow;
+}
+/*-----------------------------------------------------*/
+
+
+
+
+/* --------------- colores del fondo ------------------ */
+
+.fondoVerde{
+    background-color: green;
+}
+
+.fondoVioleta{
+    background-color: blueviolet;
+}
+
+.fondoNaranja{
+    background-color: orange;
+}
+/*-----------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

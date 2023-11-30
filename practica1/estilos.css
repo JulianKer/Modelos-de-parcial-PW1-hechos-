@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.contenedor-main{
+    width: 50%;
+    display: grid;
+}
+
+.parcial{
+    border:  black solid 2px;
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    padding-left: 10px;
+}
+
+.fila-del-medio{
+    border: black solid 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    font-size: 1.5em;
+}
+
+.footer{
+    border: black solid 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.contenedor-del-texto-universidad{
+    border: black solid 2px;
+    margin: 1em;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-de-personalizaciones{
+    border: black solid 2px;
+    margin: 1em;
+    width: 300px;
+    padding: 1em;
+}
+
+select{
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+
+.fondoRojo{
+    background-color: red;
+}
+.fondoVerde{
+    background-color: green;
+}
+.fondoAzul{
+    background-color: blue;
+}
+.fondoDefault{
+    background-color: white;
+}
+
+.blanco{
+    color: white;
+}
+.gris{
+    color: grey;
+}
+.amarillo{
+    color: yellow;
+}
+
+.fondoRojo,
+.fondoAzul,
+.fondoVerde,
+.fondoDefault,
+.blanco,
+.gris,
+.amarillo{
+    transition: all ease .5s;
+}

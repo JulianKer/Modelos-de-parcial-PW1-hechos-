@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contenedorPrincipal{
+    width: 55%;
+}
+
+.contenedorPrincipal,
+.tipoParcial,
+.filaDelMedio,
+.contenedorDePersonalizacion,
+.pieDePagina,
+.contenedorDelTexto{
+    border: solid 2px;
+}
+
+.tipoParcial{
+    display: flex;
+    justify-content: center;
+}
+
+.filaDelMedio{
+    display: flex;
+}
+
+.contenedorDelTexto, 
+.contenedorDePersonalizacion{
+    width: 50%;
+    margin: 20px;
+}
+
+.contenedorDePersonalizacion{
+    padding: 15px;
+}
+.contenedorDelTexto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pieDePagina{
+    display: flex;
+    justify-content: center;
+}
+
+
+.contenedorDelTexto:hover,
+.contenedorDePersonalizacion:hover{
+    outline: solid 5px #ccff33;
+}
+
+/* -----------------------  colores del fondo ---------------------------*/
+
+.izquierda{
+    justify-content: left;
+}
+
+.centro{
+    justify-content: center;
+}
+
+.derecha{
+    justify-content: right;
+}
+/*---------------------------------------------------------------------*/
+
+
+
+/* -----------------------  colores del fondo ---------------------------*/
+.default{
+    background-color: white;
+}
+
+.rojo{
+    background-color: red;
+}
+
+.verde{
+    background-color: green;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.default,
+.rojo,
+.verde,
+.azul{
+    transition: all ease .6s;
+}
+/*---------------------------------------------------------------------*/
+
+
+
+
+
+
+
